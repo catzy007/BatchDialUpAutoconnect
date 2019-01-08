@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1510390005 source:d:\umbrella-database\program\myproject\umbrella-random ping\random-ping-c\random-ping\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"rlutil.h"
+
+1509649531 d:\umbrella-database\program\myproject\umbrella-random ping\random-ping-c\random-ping\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+

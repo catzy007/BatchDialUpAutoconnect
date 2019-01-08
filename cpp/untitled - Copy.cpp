@@ -1,0 +1,51 @@
+#include <conio.h>
+#include <stdio.h>
+#include <iostream>
+
+
+main()
+{
+  int n=0;
+  core:
+  clrscr();
+  n=n+1;
+  cout<<n<<endl;
+  char var=n;
+
+  switch(var)
+  	{
+  case 1 :
+  	cout<<"Out : A ";
+  	break;
+  case 2 :
+  	cout<<"Out : B ";
+  	break;
+  case 3 :
+  	cout<<"Out : C ";
+  	break;
+  case 4 :
+  	cout<<"Out : D ";
+  	break;
+  case 5 :
+  	cout<<"Out : E ";
+  	break;
+  case 6 :
+  	cout<<"Out : F ";
+  	break;
+  case 7 :
+  	cout<<"Out : G ";
+  	break;
+  case 8 :
+   cout<<"Out : H ";
+  	break;
+  case 9 :
+   cout<<"Out : I ";
+  	break;
+  case 10 :
+  	cout<<"Out : J";
+   break;
+   }
+
+  getch();
+  goto core;
+}

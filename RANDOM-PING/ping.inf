@@ -1,0 +1,8 @@
+
+Pinging www.twitter.com [104.244.42.129] with 33 bytes of data:
+Reply from 104.244.42.129: bytes=33 time=57ms TTL=54
+
+Ping statistics for 104.244.42.129:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 57ms, Maximum = 57ms, Average = 57ms

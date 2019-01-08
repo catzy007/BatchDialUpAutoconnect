@@ -1,0 +1,1469 @@
+#system/bin/bash
+ipt1=$((RANDOM%15))
+ipt2=$((RANDOM%15))
+ipt3=$((RANDOM%15))
+ipt4=$((RANDOM%15))
+ipt5=$((RANDOM%15))
+ipt6=$((RANDOM%15))
+ipt7=$((RANDOM%15))
+ipt8=$((RANDOM%15))
+ipt9=$((RANDOM%15))
+ipt10=$((RANDOM%15))
+ipt11=$((RANDOM%15))
+ipt12=$((RANDOM%15))
+case $ipt1 in
+0) out1=0
+;;
+1) out1=1
+;;
+2) out1=2
+;;
+3) out1=3
+;;
+4) out1=4
+;;
+5) out1=5
+;;
+6) out1=6
+;;
+7) out1=7
+;;
+8) out1=8
+;;
+9) out1=9
+;;
+10) out1=A
+;;
+11) out1=B
+;;
+12) out1=C
+;;
+13) out1=D
+;;
+14) out1=E
+;;
+15) out1=F
+;;
+*) out1=A
+;;
+esac
+case $ipt2 in
+0) out2=0
+;;
+1) out2=1
+;;
+2) out2=2
+;;
+3) out2=3
+;;
+4) out2=4
+;;
+5) out2=5
+;;
+6) out2=6
+;;
+7) out2=7
+;;
+8) out2=8
+;;
+9) out2=9
+;;
+10) out2=A
+;;
+11) out2=B
+;;
+12) out2=C
+;;
+13) out2=D
+;;
+14) out2=E
+;;
+15) out2=F
+;;
+*) out2=A
+;;
+esac
+case $ipt3 in
+0) out3=0
+;;
+1) out3=1
+;;
+2) out3=2
+;;
+3) out3=3
+;;
+4) out3=4
+;;
+5) out3=5
+;;
+6) out3=6
+;;
+7) out3=7
+;;
+8) out3=8
+;;
+9) out3=9
+;;
+10) out3=A
+;;
+11) out3=B
+;;
+12) out3=C
+;;
+13) out3=D
+;;
+14) out3=E
+;;
+15) out3=F
+;;
+*) out3=A
+;;
+esac
+case $ipt4 in
+0) out4=0
+;;
+1) out4=1
+;;
+2) out4=2
+;;
+3) out4=3
+;;
+4) out4=4
+;;
+5) out4=5
+;;
+6) out4=6
+;;
+7) out4=7
+;;
+8) out4=8
+;;
+9) out4=9
+;;
+10) out4=A
+;;
+11) out4=B
+;;
+12) out4=C
+;;
+13) out4=D
+;;
+14) out4=E
+;;
+15) out4=F
+;;
+*) out4=A
+;;
+esac
+case $ipt5 in
+0) out5=0
+;;
+1) out5=1
+;;
+2) out5=2
+;;
+3) out5=3
+;;
+4) out5=4
+;;
+5) out5=5
+;;
+6) out5=6
+;;
+7) out5=7
+;;
+8) out5=8
+;;
+9) out5=9
+;;
+10) out5=A
+;;
+11) out5=B
+;;
+12) out5=C
+;;
+13) out5=D
+;;
+14) out5=E
+;;
+15) out5=F
+;;
+*) out5=A
+;;
+esac
+case $ipt6 in
+0) out6=0
+;;
+1) out6=1
+;;
+2) out6=2
+;;
+3) out6=3
+;;
+4) out6=4
+;;
+5) out6=5
+;;
+6) out6=6
+;;
+7) out6=7
+;;
+8) out6=8
+;;
+9) out6=9
+;;
+10) out6=A
+;;
+11) out6=B
+;;
+12) out6=C
+;;
+13) out6=D
+;;
+14) out6=E
+;;
+15) out6=F
+;;
+*) out6=A
+;;
+esac
+case $ipt7 in
+0) out7=0
+;;
+1) out7=1
+;;
+2) out7=2
+;;
+3) out7=3
+;;
+4) out7=4
+;;
+5) out7=5
+;;
+6) out7=6
+;;
+7) out7=7
+;;
+8) out7=8
+;;
+9) out7=9
+;;
+10) out7=A
+;;
+11) out7=B
+;;
+12) out7=C
+;;
+13) out7=D
+;;
+14) out7=E
+;;
+15) out7=F
+;;
+*) out7=A
+;;
+esac
+case $ipt8 in
+0) out8=0
+;;
+1) out8=1
+;;
+2) out8=2
+;;
+3) out8=3
+;;
+4) out8=4
+;;
+5) out8=5
+;;
+6) out8=6
+;;
+7) out8=7
+;;
+8) out8=8
+;;
+9) out8=9
+;;
+10) out8=A
+;;
+11) out8=B
+;;
+12) out8=C
+;;
+13) out8=D
+;;
+14) out8=E
+;;
+15) out8=F
+;;
+*) out8=A
+;;
+esac
+case $ipt9 in
+0) out9=0
+;;
+1) out9=1
+;;
+2) out9=2
+;;
+3) out9=3
+;;
+4) out9=4
+;;
+5) out9=5
+;;
+6) out9=6
+;;
+7) out9=7
+;;
+8) out9=8
+;;
+9) out9=9
+;;
+10) out9=A
+;;
+11) out9=B
+;;
+12) out9=C
+;;
+13) out9=D
+;;
+14) out9=E
+;;
+15) out9=F
+;;
+*) out9=A
+;;
+esac
+case $ipt10 in
+0) out10=0
+;;
+1) out10=1
+;;
+2) out10=2
+;;
+3) out10=3
+;;
+4) out10=4
+;;
+5) out10=5
+;;
+6) out10=6
+;;
+7) out10=7
+;;
+8) out10=8
+;;
+9) out10=9
+;;
+10) out10=A
+;;
+11) out10=B
+;;
+12) out10=C
+;;
+13) out10=D
+;;
+14) out10=E
+;;
+15) out10=F
+;;
+*) out10=A
+;;
+esac
+case $ipt11 in
+0) out11=0
+;;
+1) out11=1
+;;
+2) out11=2
+;;
+3) out11=3
+;;
+4) out11=4
+;;
+5) out11=5
+;;
+6) out11=6
+;;
+7) out11=7
+;;
+8) out11=8
+;;
+9) out11=9
+;;
+10) out11=A
+;;
+11) out11=B
+;;
+12) out11=C
+;;
+13) out11=D
+;;
+14) out11=E
+;;
+15) out11=F
+;;
+*) out11=A
+;;
+esac
+case $ipt12 in
+0) out12=0
+;;
+1) out12=1
+;;
+2) out12=2
+;;
+3) out12=3
+;;
+4) out12=4
+;;
+5) out12=5
+;;
+6) out12=6
+;;
+7) out12=7
+;;
+8) out12=8
+;;
+9) out12=9
+;;
+10) out12=A
+;;
+11) out12=B
+;;
+12) out12=C
+;;
+13) out12=D
+;;
+14) out12=E
+;;
+15) out12=F
+;;
+*) out12=A
+;;
+esac
+echo -e "\e[0;96m"===========================================
+echo -e "\e[0m"-CentralOS MACchanger.
+echo -e "\e[0;96m"===========================================
+echo -e "\e[0;31m"*please remember your original MAC
+echo -e "\e[0;31m"*write down it or screenshot it
+echo -n -e "\e[0;96m"-Please confirm your wifi is turned off
+read con
+echo -Please select your interface 
+echo -n "1=wlan0 2=eth0 "
+read sel
+if [ "$sel" == "2" ]; then
+interf=eth0
+else
+interf=wlan0
+fi
+echo -e "\e[0;31m"
+echo After your wifi is turned on, please close this
+echo -n  window or MAC changer will not work properly
+echo -n -e "\e[0;96m"
+read fu
+echo Changing $interf mac address to $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12
+svc wifi enable
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+busybox ifconfig $interf hw ether $out1$out2:$out3$out4:$out5$out6:$out7$out8:$out9$out10:$out11$out12>dev/null
+sleep 0.5
+
+echo -e "\e[0m"

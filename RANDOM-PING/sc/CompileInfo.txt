@@ -1,0 +1,10 @@
+Administrator
+Temporary
+
+File Version	 : 5,01,15,17
+Product Version	 : 5,01,15,17
+Company		 : MBSinc
+Pruoduct Name	 : UMBRELLA-RANDOM PING
+Internal Name	 : UMBRELLA-RANDOM PING
+Description	 : UMBRELLA-RANDOM PING
+Copyright	 : ©2016 Bagus Saputra

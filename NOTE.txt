@@ -1,0 +1,260 @@
+
+a
+
+    ADDUSERS : Tambah  daftar pengguna untuk / dari file CSV
+    ARP : Address Resolution Protocol
+    Assoc : Ubah ekstensi file  asosiasi
+    ASSOCIAT : Salah satu langkah asosiasi file
+    Attrib : Ubah atribut berkas
+
+b
+
+    Bootcfg : Edit Windows boot settings
+    BROWSTAT : Dapatkan domain, info browser dan PDC
+
+c
+
+    CACLS : Ubah file permissions
+    CALL : Panggil satu program batch yang lain
+    CD : Mengganti Directory – pindah ke Folder tertentu
+    Change : Ganti Terminal Server Session properties
+    CHKDSK : Check Disk – memeriksa dan memperbaiki masalah disk
+    CHKNTFS : Periksa sistem file NTFS
+    CHOICE : Menerima input keyboard ke sebuah file batch
+    CIPHER : Encrypt atau Decrypt file / folder
+    CleanMgr : Ototmatis membersihkan Temperatur file, recycle bin
+    CLEARMEM : Hapus kebocoran memori
+    CLIP : Salin STDIN ke Windows clipboard.
+    CLS : Menghapus layar (Clear The Screen)
+    CLUSTER : Windows Clustering
+    CMD : Start a new CMD shell
+    COLOR : Mengubah warna dari jendela CMD
+    COMP : Membandingkan isi dari dua file atau set file
+    COMPACT : Compress file atau folder pada partisi NTFS
+    Compress : Compress tunggal file pada partisi NTFS
+    CON2PRT : Menghubungkan atau memutuskan sambungan dengan Printer
+    CONVERT : Konversi FAT ke drive NTFS
+    COPY : Menyalin satu atau lebih file ke lokasi lain
+    CSCcmd : clien-side caching (Offline Files)
+    CSVDE : Impor atau Ekspor  Active Directory data
+
+d
+
+    DATE : Display atau mengatur tanggal
+    Defrag : Defragment hard drive
+    DEL : Menghapus satu atau lebih file
+    DELPROF : Hapus  profil pengguna NT
+    DELTREE : Menghapus folder dan semua subfolder
+    DevCon : Device Manager Command Line Utility
+    DIR : Menampilkan daftar file dan folder
+    DIRUSE : Tampilkan penggunaan disk
+    DISKCOMP : Bandingkan  isi dua floppy disk
+    Diskcopy : Salin isi dari satu disket ke yang lain
+    DISKPART : Disk Administrasi
+    DNSSTAT : DNS Statistik
+    DOSKEY : Edit baris perintah, ingat perintah, dan membuat macro
+    DSADD : Tambah User (komputer, group ..) ke direktori aktif
+    DSQUERY : Daftar item dalam direktori aktif
+    DSMOD : Ubah user (computer, group ..) di direktori aktif
+    DSRM : Hapus item dari Active Directory
+
+E
+
+    ECHO : Menampilkan pesan di layar
+    ENDLOCAL : Akhir localisation  perubahan lingkungan dalam file batch
+    ERASE : Menghapus satu atau lebih file
+    EVENTCREATE : Tambahkan pesan ke Windows event log
+    EXIT : Keluar dari skrip arus / rutin dan menetapkan errorlevel
+    EXPAND : uncompress file
+    Ekstrak : uncompress file CAB
+
+f
+
+    FC : Bandingkan dua file
+    FIND : Mencari string teks dalam sebuah file
+    FINDSTR : Cari  string dalam file
+    FOR / F : pengulangan perintah terhadap satu set file
+    FOR / F : pengulangan perintah terhadap hasil perintah lain
+    FOR : pengulangan perintah terhadap semua options Files, Directory, List
+    FORFILES : Proses Batch beberapa file
+    FORMAT : Format disk
+    FREEDISK : Periksa free disk space/disk yang tersisa (dalam bytes)
+    FSUTIL : File dan Volume utilitas
+    FTP : File Transfer Protocol
+    FTYPE : Tampilkan atau memodifikasi jenis file yang digunakan dalam asosiasi ekstensi file
+
+g
+
+    GLOBAL : Display keanggotaan kelompok global
+    GOTO : Direct a batch program untuk melompat ke baris berlabel
+    GPUPDATE : Update pengaturan Kebijakan Grup
+
+h
+
+    HELP : Online Help
+
+i
+
+    ICACLS : Ubah file dan folder permissions
+    IF : kondisional melakukan perintah
+    IFMEMBER : Apakah pengguna saat ini dalam sebuah NT Workgroup
+    IPCONFIG : Configure IP
+
+k
+
+    KILL : Remove program dari memori
+
+l
+
+    LABEL : Edit disk label
+    LOCAL : Display keanggotaan kelompok-kelompok lokal
+    LOGEVENT : Menulis teks ke NT event viewer
+    Logoff : user log off
+    LOGTIME : log tanggal dan waktu dalam file
+
+m
+
+    MAPISEND : Kirim email dari baris perintah
+    MBSAcli : Baseline Security Analyzer
+    MEM : Display penggunaan memori
+    MD : Buat folder baru
+    MKLINK : Buat link simbolik (linkd)
+    MODE : Mengkonfigurasi perangkat sistem
+    MORE : Display output, satu layar pada satu waktu
+    MOUNTVOL : mengelola volume mount point
+    MOVE : Pindahkan file dari satu folder ke yang lain
+    MOVEUSER : Pindahkan pengguna dari satu domain ke domain lainnya
+    MSG : mengirim pesan atau message
+    MSIEXEC : Microsoft Windows Installer
+    MSINFO : Windows NT diagnostics
+    MSTSC : Terminal Server Connection (Remote Desktop Protocol)
+    MUNGE : Cari dan Ganti teks dalam file (s)
+    MV : Copy in-menggunakan file
+
+n
+
+    NET : Kelola sumber daya jaringan
+    NETDOM : Domain Manager
+    Netsh : Configure Network Interfaces, Windows Firewall & Remote akses
+    NETSVC : Command-line Service Controller
+    NBTSTAT : Tampilkan statistik jaringan (NetBIOS over TCP / IP)
+    NETSTAT : Display networking statistics (TCP / IP)
+    NOW : Tampilan  saat ini Tanggal dan Waktu
+    NSLOOKUP : Nama server lookup
+    NTBACKUP : Backup  folder ke tape
+    NTRIGHTS : Edit hak user account
+
+p
+
+    PATH : Menampilkan atau menetapkan path pencarian untuk file executable
+    PATHPING : jejak jalur jaringan ditambah paket latensi dan kerugian
+    PAUSE : memenjarakan(suspend) pengolahan file batch dan menampilkan pesan
+    perms : Tampilkan izin untuk pengguna
+    PERFMON : Kinerja Monitor
+    PING : Menguji koneksi jaringan
+    POPD : Mengembalikan nilai sebelumnya dari direktori sekarang yang disimpan oleh PUSHD
+    PORTQRY : Tampilan status ports dan services
+    Powercfg : Mengkonfigurasi pengaturan daya
+    PRINT : Mencetak file teks
+    PRNCNFG : Display, mengkonfigurasi atau mengubah nama printer
+    PRNMNGR : Tambah, menghapus, daftar printer menetapkan printer default
+    PROMPT : Mengubah command prompt
+    PsExec : Proses Execute jarak jauh
+    PsFile : menampilkan file dibuka dari jarak jauh (remote)
+    PsGetSid : Menampilkan SID sebuah komputer atau pengguna
+    PsInfo : Daftar informasi tentang sistem
+    PsKill : proses mematikan berdasarkan nama atau ID proses
+    PsList : Daftar informasi rinci tentang proses-proses
+    PsLoggedOn : siapa saja yang log on (lokal atau melalui resource sharing)
+    PsLogList : catatan kejadian log
+    PsPasswd : Ubah sandi account
+    PsService : Melihat dan mengatur layanan
+    PsShutdown : Shutdown atau reboot komputer
+    PsSuspend : proses Suspend
+    PUSHD : Simpan dan kemudian mengubah direktori sekarang
+
+q
+
+    QGREP : Cari file(s) untuk baris yang cocok dengan pola tertentu
+
+r
+
+    RASDIAL : Mengelola koneksi RAS
+    RASPHONE : Mengelola koneksi RAS
+    Recover : perbaikan file yang rusak dari disk yang rusak
+    REG : Registry = Read, Set, Export, Hapus kunci dan nilai-nilai
+    REGEDIT : Impor atau ekspor  pengaturan registry
+    Regsvr32 : Register atau unregister sebuah DLL
+    REGINI : Ubah Registry Permissions
+    REM : Record comments (komentar) di sebuah file batch
+    REN : Mengubah nama file atau file
+    REPLACE : Ganti atau memperbarui satu file dengan yang lain
+    RD : Hapus folder (s)
+    RMTSHARE : Share folder atau printer
+    Robocopy : Copy File dan Folder secara sempurna
+    RUTE : Memanipulasi tabel routing jaringan
+    RUNAS : Jalankan program di bawah account pengguna yang berbeda
+    RUNDLL32 : Jalankan perintah DLL (add / remove print connections)
+
+s
+
+    SC : Control Layanan
+    SCHTASKS : Jadwal perintah untuk dijalankan pada waktu tertentu
+    SCLIST : Tampilkan Layanan NT
+    SET : Display, set, atau menghapus variabel environment
+    SETLOCAL : Pengendalian environment visibilitas variabel
+    SETX : Set variabel environment secara permanen
+    SFC : Pemeriksa Berkas Sistem
+    SHARE :  Daftar atau mengedit file share atau share print
+    SHIFT : Shift posisi digantikan parameter dalam sebuah file batch
+    SHORTCUT : jendela Buat shortcut (. LNK file)
+    SHOWGRPS : Daftar NT Workgroups seorang pengguna telah bergabung
+    SHOWMBRS : Daftar Pengguna yang menjadi anggota dari sebuah Workgroup
+    SHUTDOWN : Shutdown komputer
+    SLEEP : Tunggu untuk x detik
+    SLMGR : Software Licensing Management (Vista/2008)
+    SOON : Jadwal perintah untuk menjalankan dalam waktu dekat
+    SORT : Sort input
+    START : memulai sebuah program atau perintah dalam jendela terpisah
+    SU : Switch User
+    SUBINACL : Edit file dan folder Permissions, Kepemilikan dan Domain
+    SUBST : Associate jalan dengan huruf drive
+    Systeminfo : Daftar konfigurasi sistem
+
+t
+
+    TASKLIST : Daftar menjalankan aplikasi dan services
+    TASKKILL : Hapus proses yang berjalan dari memori
+    TIME : Menampilkan atau mengatur waktu sistem
+    TIMEOUT : penundaan pemrosesan dari sebuah batch file
+    TITLE : Mengatur judul window untuk sesi cmd.exe
+    TLIST : daftar tugas dengan path lengkap
+    TOUCH : mengganti file timestamps
+    Tracert : Trace route ke sebuah remote host
+    TREE : tampilan grafis struktur folder
+    TYPE : Menampilkan isi dari file teks
+
+u
+
+    USRSTAT : Daftar domain nama pengguna dan terakhir login
+
+v
+
+    VER : Tampilkan versi informasi
+    VERIFY : Pastikan bahwa file sudah disimpan
+    VOL : Menampilkan sebuah label disk
+
+w
+
+    WHERE : Menempatkan dan menampilkan file dalam sebuah pohon direktori
+    wHOAMI : Output UserName saat ini dan manajemen domain
+    WINDIFF : Bandingkan isi dua file atau set file
+    WINMSD : Sistem Windows diagnostik
+    WINMSDP : Sistem Windows diagnostik II
+    WMIC : Perintah WMI
+
+x
+
+    XCACLS : Ubah file dan folder permissions
+    XCOPY : Menyalin file dan fold
+

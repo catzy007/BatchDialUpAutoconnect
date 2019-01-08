@@ -1,0 +1,8 @@
+
+Pinging e13678.dspb.akamaiedge.net [103.224.141.11] with 33 bytes of data:
+Reply from 103.224.141.11: bytes=33 time=15ms TTL=57
+
+Ping statistics for 103.224.141.11:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 15ms, Maximum = 15ms, Average = 15ms

@@ -1,0 +1,8 @@
+
+Pinging e6858.dsce9.akamaiedge.net [104.93.201.231] with 2 bytes of data:
+Reply from 104.93.201.231: bytes=2 time=113ms TTL=59
+
+Ping statistics for 104.93.201.231:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 113ms, Maximum = 113ms, Average = 113ms

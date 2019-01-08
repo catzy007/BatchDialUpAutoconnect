@@ -1,0 +1,186 @@
+  case '1' :
+  	cout??"Out : 0  ";
+  	break; 
+  case '2' :
+  	cout??"Out : 1  ";
+  	break; 
+  case '3' :
+  	cout??"Out : 2  ";
+  	break; 
+  case '4' :
+  	cout??"Out : 3  ";
+  	break; 
+  case '5' :
+  	cout??"Out : 4  ";
+  	break; 
+  case '6' :
+  	cout??"Out : 5  ";
+  	break; 
+  case '7' :
+  	cout??"Out : 6  ";
+  	break; 
+  case '8' :
+  	cout??"Out : 7  ";
+  	break; 
+  case '9' :
+  	cout??"Out : 8  ";
+  	break; 
+  case '10' :
+  	cout??"Out : 9  ";
+  	break; 
+  case '11' :
+  	cout??"Out : a ";
+  	break; 
+  case '12' :
+  	cout??"Out : b ";
+  	break; 
+  case '13' :
+  	cout??"Out : c ";
+  	break; 
+  case '14' :
+  	cout??"Out : d ";
+  	break; 
+  case '15' :
+  	cout??"Out : e ";
+  	break; 
+  case '16' :
+  	cout??"Out : f ";
+  	break; 
+  case '17' :
+  	cout??"Out : g ";
+  	break; 
+  case '18' :
+  	cout??"Out : h ";
+  	break; 
+  case '19' :
+  	cout??"Out : i ";
+  	break; 
+  case '20' :
+  	cout??"Out : j ";
+  	break; 
+  case '21' :
+  	cout??"Out : k ";
+  	break; 
+  case '22' :
+  	cout??"Out : l ";
+  	break; 
+  case '23' :
+  	cout??"Out : m ";
+  	break; 
+  case '24' :
+  	cout??"Out : n ";
+  	break; 
+  case '25' :
+  	cout??"Out : o ";
+  	break; 
+  case '26' :
+  	cout??"Out : p ";
+  	break; 
+  case '27' :
+  	cout??"Out : q ";
+  	break; 
+  case '28' :
+  	cout??"Out : r ";
+  	break; 
+  case '29' :
+  	cout??"Out : s ";
+  	break; 
+  case '30' :
+  	cout??"Out : t ";
+  	break; 
+  case '31' :
+  	cout??"Out : u ";
+  	break; 
+  case '32' :
+  	cout??"Out : v ";
+  	break; 
+  case '33' :
+  	cout??"Out : w ";
+  	break; 
+  case '34' :
+  	cout??"Out : x ";
+  	break; 
+  case '35' :
+  	cout??"Out : y ";
+  	break; 
+  case '36' :
+  	cout??"Out : z ";
+  	break; 
+  case '37' :
+  	cout??"Out : A ";
+  	break; 
+  case '38' :
+  	cout??"Out : B ";
+  	break; 
+  case '39' :
+  	cout??"Out : C ";
+  	break; 
+  case '40' :
+  	cout??"Out : D ";
+  	break; 
+  case '41' :
+  	cout??"Out : E ";
+  	break; 
+  case '42' :
+  	cout??"Out : F ";
+  	break; 
+  case '43' :
+  	cout??"Out : G ";
+  	break; 
+  case '44' :
+  	cout??"Out : H ";
+  	break; 
+  case '45' :
+  	cout??"Out : I ";
+  	break; 
+  case '46' :
+  	cout??"Out : J ";
+  	break; 
+  case '47' :
+  	cout??"Out : K ";
+  	break; 
+  case '48' :
+  	cout??"Out : L ";
+  	break; 
+  case '49' :
+  	cout??"Out : M ";
+  	break; 
+  case '50' :
+  	cout??"Out : N ";
+  	break; 
+  case '51' :
+  	cout??"Out : O ";
+  	break; 
+  case '52' :
+  	cout??"Out : P ";
+  	break; 
+  case '53' :
+  	cout??"Out : Q ";
+  	break; 
+  case '54' :
+  	cout??"Out : R ";
+  	break; 
+  case '55' :
+  	cout??"Out : S ";
+  	break; 
+  case '56' :
+  	cout??"Out : T ";
+  	break; 
+  case '57' :
+  	cout??"Out : U ";
+  	break; 
+  case '58' :
+  	cout??"Out : V ";
+  	break; 
+  case '59' :
+  	cout??"Out : W ";
+  	break; 
+  case '60' :
+  	cout??"Out : X ";
+  	break; 
+  case '61' :
+  	cout??"Out : Y ";
+  	break; 
+  case '62' :
+  	cout??"Out : Z ";
+  	break; 
