@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>coba</title>
+    </head>
+    <script>
+        function myFunction(){
+            var coba = document.getElementById('iptdata').value.toLowerCase();
+            //teman(ayah_dari(joni), ayah_dari(andre))
+            //teman ayah dari joni adalah ayah dari andre
+            coba = coba.replaceAll(',',' adalah ');
+            coba = coba.replaceAll('(',' ');
+            coba = coba.replaceAll(')',' ');
+            coba = coba.replaceAll('_',' ');
+            //filter
+            coba = coba.replace(/\s\s+/g, ' ');
+            console.log(coba);
+            document.getElementById('out').innerHTML = "<p>" + coba + "</p>";
+        }
+        String.prototype.replaceAll = function(str1, str2, ignore){
+            return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
+        } 
+    </script>
+    <body>
+        <input type="text" class="form-control" id="iptdata" value="teman(ayah_dari(joni), ayah_dari(andre))">
+        <br>
+        <button type="submit" class="btn btn-success btn-block" onclick="myFunction()" value="Submit">Submit</button>
+        <div id="out">
+        </div>
+    </body>
+</html>
